@@ -151,12 +151,26 @@
 }
 
 .ins-header-options {
-  justify-content: space-between;
+  justify-content: flex-end;
   position: sticky;
   top: 0;
   z-index: 10;
   background: var(--ins-white);
   border-bottom: 1px solid var(--ins-border);
+}
+
+.ins-header-options .ins-header-logo-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  flex: none;
+  width: auto;
+}
+
+.ins-header-options .ins-btn-logout {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
 }
 
 .ins-portal-options .ins-header-options {
@@ -612,7 +626,7 @@
 
 .ins-hero-title {
   margin: 0 0 24px;
-  font-size: 1.875rem;
+  font-size: 2.1rem;
   font-weight: 700;
   color: #4a3d5c;
   line-height: 1.3;

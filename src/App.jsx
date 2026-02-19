@@ -172,7 +172,7 @@ function OptionsScreen({ onUpdateInsurance, onUpdatePersonal, onNeedAssistance, 
     <>
       <header className="ins-header ins-header-options">
         <div className="ins-header-logo-wrap">
-          <img src={logoImg} alt="Annuity Health" className="ins-logo-img" />
+          <img src={logoImg} alt="Global Finance" className="ins-logo-img" />
         </div>
         <button type="button" className="ins-btn-logout" onClick={onLogout}>
           Logout
@@ -218,7 +218,7 @@ function OptionsScreen({ onUpdateInsurance, onUpdatePersonal, onNeedAssistance, 
 
 const AGENCY_DETAILS = {
   phone: '+1 (800) 123-4567',
-  email: 'support@annuityhealth.com',
+  email: 'support@globalfinance.com',
   address: '123 Healthcare Plaza, Suite 100, Eastwood, USA',
   hours: 'Mon–Fri 9:00 AM – 5:00 PM, Sat 9:00 AM – 2:00 PM',
 };
