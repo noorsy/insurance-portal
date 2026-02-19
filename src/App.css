@@ -16,6 +16,11 @@
   background: linear-gradient(180deg, #f5f0fa 0%, #faf8fc 28%, #ffffff 55%, #f9fafb 100%);
 }
 
+/* Selected card screens (Update insurance, Update personal, Need assistance, Update success): same gradient */
+.ins-portal-gradient {
+  background: linear-gradient(180deg, #f5f0fa 0%, #faf8fc 28%, #ffffff 55%, #f9fafb 100%);
+}
+
 :root {
   --ins-primary: #4a1e6a;
   --ins-primary-dark: #3a1854;
@@ -641,7 +646,7 @@
 }
 
 .ins-option-card-primary {
-  background: var(--ins-primary);
+  background: linear-gradient(135deg, var(--ins-primary) 0%, var(--ins-primary-dark) 50%, #2d0f45 100%);
   border-color: var(--ins-primary);
   color: var(--ins-white);
 }

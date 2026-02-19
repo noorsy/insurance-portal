@@ -73,7 +73,7 @@ function VerifyScreen({ onVerify }) {
     <>
       <header className="ins-header ins-header-home ins-header-login">
         <div className="ins-header-logo-wrap">
-          <img src={logoImg} alt="Annuity Health" className="ins-logo-img" />
+          <img src={logoImg} alt="Global Finance" className="ins-logo-img" />
         </div>
         <button type="button" className="ins-header-phone" aria-label="Call">
           <img src={phoneSvg} alt="" className="ins-header-icon-img" width={32} height={32} />
@@ -152,7 +152,7 @@ function LoadingScreen() {
     <>
       <header className="ins-header ins-header-home ins-header-login">
         <div className="ins-header-logo-wrap">
-          <img src={logoImg} alt="Annuity Health" className="ins-logo-img" />
+          <img src={logoImg} alt="Global Finance" className="ins-logo-img" />
         </div>
         <button type="button" className="ins-header-phone" aria-label="Call">
           <img src={phoneSvg} alt="" className="ins-header-icon-img" width={32} height={32} />
@@ -180,7 +180,7 @@ function OptionsScreen({ onUpdateInsurance, onUpdatePersonal, onNeedAssistance, 
       </header>
 
       <main className="ins-options-main">
-        <h1 className="ins-hero-title">Annuity Health is here to help 🤝</h1>
+        <h1 className="ins-hero-title">Global Finance is here to help 🤝</h1>
         <div className="ins-options-list">
           <button type="button" className="ins-option-card ins-option-card-primary" onClick={onUpdateInsurance}>
             <span className="ins-option-icon" aria-hidden><ShieldIcon /></span>
@@ -449,7 +449,7 @@ export default function App() {
   };
 
   return (
-    <div className={`ins-portal ${screen === 'options' ? 'ins-portal-options' : ''}`}>
+    <div className={`ins-portal ${screen === 'options' ? 'ins-portal-options' : ''} ${['insurance-details', 'personal-details', 'need-assistance', 'update-success'].includes(screen) ? 'ins-portal-gradient' : ''}`}>
       {screen === 'verify' && <VerifyScreen onVerify={goToLoading} />}
       {screen === 'loading' && <LoadingScreen />}
       {screen === 'options' && (
