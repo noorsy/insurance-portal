@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-const logoUrl = 'https://cdn.brandfetch.io/idZVOPlrG_/w/820/h/187/theme/light/logo.png?c=1dxbfHSJFAPEGdCLU4o5B';
+const logoUrl = 'https://cdn.brandfetch.io/idoNtSa7_y/w/200/h/150/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B';
 import phoneSvg from '../images/Phone.svg';
 import userCircleSvg from '../images/UserCircle.svg';
 import doneImg from '../images/done.png';
@@ -73,7 +73,7 @@ function VerifyScreen({ onVerify }) {
     <>
       <header className="ins-header ins-header-home ins-header-login">
         <div className="ins-header-logo-wrap">
-          <img src={logoUrl} alt="Medsrv" className="ins-logo-img" />
+          <img src={logoUrl} alt="HSS Medical Services" className="ins-logo-img" />
         </div>
         <button type="button" className="ins-header-phone" aria-label="Call">
           <img src={phoneSvg} alt="" className="ins-header-icon-img" width={32} height={32} />
@@ -152,7 +152,7 @@ function LoadingScreen() {
     <>
       <header className="ins-header ins-header-home ins-header-login">
         <div className="ins-header-logo-wrap">
-          <img src={logoUrl} alt="Medsrv" className="ins-logo-img" />
+          <img src={logoUrl} alt="HSS Medical Services" className="ins-logo-img" />
         </div>
         <button type="button" className="ins-header-phone" aria-label="Call">
           <img src={phoneSvg} alt="" className="ins-header-icon-img" width={32} height={32} />
@@ -172,7 +172,7 @@ function OptionsScreen({ onUpdateInsurance, onUpdatePersonal, onNeedAssistance, 
     <>
       <header className="ins-header ins-header-options">
         <div className="ins-header-logo-wrap">
-          <img src={logoUrl} alt="Medsrv" className="ins-logo-img" />
+          <img src={logoUrl} alt="HSS Medical Services" className="ins-logo-img" />
         </div>
         <button type="button" className="ins-btn-logout" onClick={onLogout}>
           Logout
@@ -180,7 +180,7 @@ function OptionsScreen({ onUpdateInsurance, onUpdatePersonal, onNeedAssistance, 
       </header>
 
       <main className="ins-options-main">
-        <h1 className="ins-hero-title">Medsrv is here to help 🤝</h1>
+        <h1 className="ins-hero-title">HSS Medical Services is here to help 🤝</h1>
         <div className="ins-options-list">
           <button type="button" className="ins-option-card ins-option-card-primary" onClick={onUpdateInsurance}>
             <span className="ins-option-icon" aria-hidden><ShieldIcon /></span>

@@ -22,8 +22,8 @@
 }
 
 :root {
-  --ins-primary: #ED1C24;
-  --ins-primary-dark: #c4161d;
+  --ins-primary: #0053C9;
+  --ins-primary-dark: #015A78;
   --ins-text: #1a1a2e;
   --ins-text-muted: #6b7280;
   --ins-white: #ffffff;
@@ -37,12 +37,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  background: linear-gradient(135deg, #211A22 0%, #2a1f2d 50%, #211A22 100%);
+  background: linear-gradient(135deg, #015A78 0%, #01729a 50%, #015A78 100%);
   border-bottom: 1px solid var(--ins-border);
 }
 
 .ins-header-home {
-  background: linear-gradient(135deg, #211A22 0%, #2a1f2d 50%, #211A22 100%);
+  background: linear-gradient(135deg, #015A78 0%, #01729a 50%, #015A78 100%);
   border-bottom: none;
 }
 
@@ -52,7 +52,7 @@
 
 /* Login header: no background, logo centered, no back button */
 .ins-header-login {
-  background: linear-gradient(135deg, #211A22 0%, #2a1f2d 50%, #211A22 100%);
+  background: linear-gradient(135deg, #015A78 0%, #01729a 50%, #015A78 100%);
   border-bottom: 1px solid var(--ins-border);
 }
 
@@ -124,12 +124,12 @@
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: #1e40af;
+  color: #0053C9;
   line-height: 1.2;
 }
 
 .ins-logo-text-alt {
-  color: #3b82f6;
+  color: #015A78;
   font-size: 12px;
 }
 
@@ -155,7 +155,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  background: linear-gradient(135deg, #211A22 0%, #2a1f2d 50%, #211A22 100%);
+  background: linear-gradient(135deg, #015A78 0%, #01729a 50%, #015A78 100%);
   border-bottom: 1px solid var(--ins-border);
 }
 
@@ -176,7 +176,7 @@
 }
 
 .ins-portal-options .ins-header-options {
-  background: linear-gradient(135deg, #211A22 0%, #2a1f2d 50%, #211A22 100%);
+  background: linear-gradient(135deg, #015A78 0%, #01729a 50%, #015A78 100%);
 }
 
 .ins-header-options .ins-logo {
@@ -245,7 +245,7 @@
 
 .ins-input-row:focus-within {
   border-color: var(--ins-primary);
-  box-shadow: 0 0 0 3px rgba(237, 28, 36, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 83, 201, 0.15);
 }
 
 .ins-input-prefix {
@@ -462,7 +462,7 @@
 .ins-input:focus {
   outline: none;
   border-color: var(--ins-primary);
-  box-shadow: 0 0 0 3px rgba(237, 28, 36, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 83, 201, 0.15);
 }
 
 .ins-btn {
@@ -630,7 +630,7 @@
   margin: 0 0 24px;
   font-size: 2.1rem;
   font-weight: 700;
-  color: #4a3d5c;
+  color: #01355a;
   line-height: 1.3;
   font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
 }
@@ -662,7 +662,7 @@
 }
 
 .ins-option-card-primary {
-  background: linear-gradient(135deg, var(--ins-primary) 0%, var(--ins-primary-dark) 50%, #A01318 100%);
+  background: linear-gradient(135deg, var(--ins-primary) 0%, var(--ins-primary-dark) 50%, #014a63 100%);
   border-color: var(--ins-primary);
   color: var(--ins-white);
 }
@@ -703,21 +703,21 @@
   margin: 0 0 4px;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #4a3d5c;
+  color: #01355a;
   font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
 }
 
 .ins-option-sub {
   margin: 0;
   font-size: 0.9375rem;
-  color: #6b5c7b;
+  color: #3a6080;
   line-height: 1.4;
   font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
 }
 
 .ins-option-card svg:last-of-type {
   flex-shrink: 0;
-  color: #6b5c7b;
+  color: #3a6080;
 }
 
 .ins-option-card-primary svg:last-of-type {
